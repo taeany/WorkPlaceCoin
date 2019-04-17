@@ -1,0 +1,26 @@
+# /etc/conf.d/workplacecoind: config file for /etc/init.d/workplacecoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/workplacecoin/workplacecoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/workplacecoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/workplacecoind.pid"
+
+# Where to write workplacecoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/workplacecoind"
+
+# User and group to own workplacecoind process
+#BITCOIND_USER="workplacecoin"
+#BITCOIND_GROUP="workplacecoin"
+
+# Path to workplacecoind executable
+#BITCOIND_BIN="/usr/bin/workplacecoind"
+
+# Nice value to run workplacecoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

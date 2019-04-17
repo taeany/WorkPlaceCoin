@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=WorkPlaceCoin
+Comment=WorkPlaceCoin P2P Cryptocurrency
+Comment[fr]=WorkPlaceCoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=WorkPlaceCoin, eşten eşe kriptografik sanal para birimi
+Exec=workplacecoin-qt %u
+Terminal=false
+Type=Application
+Icon=workplacecoin128
+MimeType=x-scheme-handler/workplacecoin;
+Categories=Office;Finance;

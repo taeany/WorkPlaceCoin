@@ -1,0 +1,26 @@
+[Unit]
+Description=WorkPlaceCoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=workplacecoin
+Group=workplacecoin
+
+Type=forking
+PIDFile=/var/lib/workplacecoind/workplacecoind.pid
+
+ExecStart=/usr/bin/workplacecoind -daemon -pid=/var/lib/workplacecoind/workplacecoind.pid \
+          -conf=/etc/workplacecoin/workplacecoin.conf -datadir=/var/lib/workplacecoind
+
+ExecStop=-/usr/bin/workplacecoin-cli -conf=/etc/workplacecoin/workplacecoin.conf \
+         -datadir=/var/lib/workplacecoind stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,36 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/workplacecoin_bg.qm</file>
+        <file alias="ca">locale/workplacecoin_ca.qm</file>
+        <file alias="cs">locale/workplacecoin_cs.qm</file>
+        <file alias="da">locale/workplacecoin_da.qm</file>
+        <file alias="de">locale/workplacecoin_de.qm</file>
+        <file alias="en">locale/workplacecoin_en.qm</file>
+        <file alias="en_US">locale/workplacecoin_en_US.qm</file>
+        <file alias="eo">locale/workplacecoin_eo.qm</file>
+        <file alias="es">locale/workplacecoin_es.qm</file>
+        <file alias="es_ES">locale/workplacecoin_es_ES.qm</file>
+        <file alias="fi">locale/workplacecoin_fi.qm</file>
+        <file alias="fr_FR">locale/workplacecoin_fr_FR.qm</file>
+        <file alias="hi_IN">locale/workplacecoin_hi_IN.qm</file>
+        <file alias="hr">locale/workplacecoin_hr.qm</file>
+        <file alias="hr_HR">locale/workplacecoin_hr_HR.qm</file>
+        <file alias="it">locale/workplacecoin_it.qm</file>
+        <file alias="ja">locale/workplacecoin_ja.qm</file>
+        <file alias="ko_KR">locale/workplacecoin_ko_KR.qm</file>
+        <file alias="lt_LT">locale/workplacecoin_lt_LT.qm</file>
+        <file alias="nl">locale/workplacecoin_nl.qm</file>
+        <file alias="pl">locale/workplacecoin_pl.qm</file>
+        <file alias="pt">locale/workplacecoin_pt.qm</file>
+        <file alias="pt_BR">locale/workplacecoin_pt_BR.qm</file>
+        <file alias="ro_RO">locale/workplacecoin_ro_RO.qm</file>
+        <file alias="ru">locale/workplacecoin_ru.qm</file>
+        <file alias="sk">locale/workplacecoin_sk.qm</file>
+        <file alias="sv">locale/workplacecoin_sv.qm</file>
+        <file alias="tr">locale/workplacecoin_tr.qm</file>
+        <file alias="uk">locale/workplacecoin_uk.qm</file>
+        <file alias="vi">locale/workplacecoin_vi.qm</file>
+        <file alias="zh_CN">locale/workplacecoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/workplacecoin_zh_TW.qm</file>
+    </qresource>
+</RCC>
